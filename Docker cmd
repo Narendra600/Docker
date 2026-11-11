@@ -6,3 +6,4 @@ docker -v                    (it will check docker installed or not version will
 docker pull ubuntu           (it will download image)
 docker image and docker docker image ls  (it will check installed image or not)
 docker ps (will check image running or not)  docker ps -a (any container available or not)
+docker run hello-world       (will conver image to container)
