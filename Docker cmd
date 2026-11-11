@@ -1,0 +1,7 @@
+First type docker in fresh ubuntu VM it will show command not found.
+sudo -i
+apt-get update
+apt install docker.io -y     (it will install docker)
+docker -v                    (it will check docker installed or not version will check)
+docker pull ubuntu           (it will download image)
+docker image and docker docker image ls  (it will check installed image or not)
