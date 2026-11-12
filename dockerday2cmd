@@ -7,3 +7,5 @@ docker run nginx (nginx image pull & run)
 docker run -p 80:80 nginx   (port mapping expose vm:container)
 its defult web server port 80 run
 if nginx server run with name cmd will be "docker run -d --name narendra -p 8080 nginx (-d anywhere can write)
+https://www.virtualbox.org/
+https://www.osboxes.org/virtualbox-images/
