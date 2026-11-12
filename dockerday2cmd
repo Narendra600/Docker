@@ -1,0 +1,9 @@
+with docker run cmd imgae download & run from docker pull only download
+Popular o.s. & light weight Alpine int question it can be use in production
+cmd for run into container is docker exec -it 4b37 /bin/bash
+install python in container apt install python for git apt install git
+if process running need to stop then exit from conainer 
+docker run nginx (nginx image pull & run)
+docker run -p 80:80 nginx   (port mapping expose vm:container)
+its defult web server port 80 run
+if nginx server run with name cmd will be "docker run -d --name narendra -p 8080 nginx (-d anywhere can write)
