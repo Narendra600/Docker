@@ -5,6 +5,7 @@ install python in container apt install python for git apt install git
 if process running need to stop then exit from conainer 
 docker run nginx (nginx image pull & run)
 docker run -p 80:80 nginx   (port mapping expose vm:container)
+docker run -d --name narendra -p 80:80 nginx  (-d for countinuos running in backend)
 its defult web server port 80 run
 if nginx server run with name cmd will be "docker run -d --name narendra -p 8080 nginx (-d anywhere can write)
 https://www.virtualbox.org/
