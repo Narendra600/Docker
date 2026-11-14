@@ -10,3 +10,4 @@ its defult web server port 80 run
 if nginx server run with name cmd will be "docker run -d --name narendra -p 8080 nginx (-d anywhere can write)
 https://www.virtualbox.org/
 https://www.osboxes.org/virtualbox-images/
+docker exec -it container id /bin/bash  (this cmd for going inside container id )
