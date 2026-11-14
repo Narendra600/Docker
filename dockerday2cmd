@@ -11,3 +11,4 @@ if nginx server run with name cmd will be "docker run -d --name narendra -p 8080
 https://www.virtualbox.org/
 https://www.osboxes.org/virtualbox-images/
 docker exec -it container id /bin/bash  (this cmd for going inside container id )
+Inside the container can install python,git but cmd docker ps,docker exec -it conainer id will not work .will be work on VM root user.
