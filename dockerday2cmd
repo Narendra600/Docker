@@ -16,3 +16,4 @@ docker run nginx (run this cmd not install nginx check with public ip and again 
 mkdir -p ~/docker-nginx/html
 cd ~/docker-nginx/html
 vi index.html
+press i then paste code than esc : wq
