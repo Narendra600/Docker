@@ -45,6 +45,7 @@ CMD [“echo”,”Image created”]
    34  docker login
    35  docker push vikas4cloud/anujimage:latest
    36  history
+docker pull narendra12101992/narendraimage:lates
 
 
 
