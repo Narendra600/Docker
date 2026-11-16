@@ -49,4 +49,5 @@ sudo apt-get update && sudo apt install docker.io -y
    10  docker ps
    11  docker ps -a
 docker start container id than (docker commit container id yourname) container to image conver krne ke liye
+docker save sharmanarendra:latest > kumar.tar  (it will convert sharmanarendra:latest in tar file)
 
