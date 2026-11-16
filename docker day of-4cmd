@@ -5,3 +5,30 @@ git clone https://github.com/CloudDevOpsHub/Dockerfile-Advance-Demo.git
 cd Dockerfile-Advance-Demo 
 
 docker build -f Dockerfile.bloated -t app:bloated .
+FROM ubuntu:latest
+
+
+
+
+
+
+
+RUN apt-get update && apt-get install -y \
+    python3 \
+    python3-pip \
+    build-essential \
+    vim \
+    curl \
+    wget \
+    net-tools
+
+WORKDIR /app
+
+COPY . /app
+
+# ✅ FIX HERE
+RUN pip3 install --break-system-packages -r requirements.txt
+
+EXPOSE 8000
+
+CMD ["python3", "app.py"]
