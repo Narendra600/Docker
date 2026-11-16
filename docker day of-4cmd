@@ -63,4 +63,5 @@ docker save sharmanarendra:latest > kumar.tar  (it will convert sharmanarendra:l
    25  docker system df
 docker system prune   (take approval for image deleting)
 git clone https://github.com/CloudDevOpsHub/Dockerfile-Advance-Demo.git
+docker build -f Dockerfile.bloated -t app:bloated .
 
