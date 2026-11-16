@@ -11,7 +11,7 @@ FROM ubuntu:latest
 
 
 
-
+sudo apt-get update && sudo apt install docker.io -y
 
 RUN apt-get update && apt-get install -y \
     python3 \
