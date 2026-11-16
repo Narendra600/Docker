@@ -1,2 +1,7 @@
 https://github.com/CloudDevOpsHub/Dockerfile-Advance-Demo.git
 https://github.com/CloudDevOpsHub/Dockerfile-Advance-Demo/tree/main
+git clone https://github.com/CloudDevOpsHub/Dockerfile-Advance-Demo.git
+
+cd Dockerfile-Advance-Demo 
+
+docker build -f Dockerfile.bloated -t app:bloated .
