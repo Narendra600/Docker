@@ -48,4 +48,5 @@ sudo apt-get update && sudo apt install docker.io -y
     9  docker run -it ubuntu
    10  docker ps
    11  docker ps -a
+docker start container id than (docker commit container id yourname) container to image conver krne ke liye
 
