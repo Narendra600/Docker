@@ -62,4 +62,5 @@ docker save sharmanarendra:latest > kumar.tar  (it will convert sharmanarendra:l
    24  docker stats d66b366dac61
    25  docker system df
 docker system prune   (take approval for image deleting)
+git clone https://github.com/CloudDevOpsHub/Dockerfile-Advance-Demo.git
 
