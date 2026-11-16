@@ -50,4 +50,15 @@ sudo apt-get update && sudo apt install docker.io -y
    11  docker ps -a
 docker start container id than (docker commit container id yourname) container to image conver krne ke liye
 docker save sharmanarendra:latest > kumar.tar  (it will convert sharmanarendra:latest in tar file)
+15  docker start 7437977e673a
+   16  docker commit 7437977e673a sharmanarendra
+   17  docker images
+   18  docker save sharmanarendra:latest > kumar.tar
+   19  ls
+   20  docker inspect ubuntu:latest
+   21  docker log ubuntu:latest
+   22  docker log d66b366dac61
+   23  docker logs d66b366dac61
+   24  docker stats d66b366dac61
+   25  docker system df
 
